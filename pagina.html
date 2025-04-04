@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GigaStore | Computadoras Gamer y Accesorios</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0e0e0e;
+      color: #fff;
+    }
+    header {
+      background-color: #b00000;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #1a1a1a;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: #ff3c3c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .producto {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #900;
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .precio {
+      color: #ff3c3c;
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .logo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .logo-gallery img {
+      max-width: 150px;
+      background: #fff;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    .contacto {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .contacto a {
+      color: #ff3c3c;
+      text-decoration: none;
+      display: inline-block;
+      margin: 10px;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GigaStore</h1>
+    <p>Computadoras Gamers y Accesorios</p>
+  </header>
+  
+  <nav>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#logos">Logos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="catalogo">
+    <h2>Catálogo de Productos</h2>
+    <div class="productos">
+      <!-- Producto ejemplo -->
+      <div class="producto">
+        <img src="https://via.placeholder.com/250x150" alt="Producto ejemplo">
+        <h3>Nombre del Producto</h3>
+        <p class="precio">$999.99</p>
+        <p>Descripción breve del producto aquí...</p>
+      </div>
+      <!-- Puedes copiar el bloque de producto para añadir más -->
+    </div>
+  </section>
+
+  <section id="logos">
+    <h2>Galería de Logos</h2>
+    <div class="logo-gallery">
+      <img src="https://via.placeholder.com/150x150" alt="Logo 1">
+      <img src="https://via.placeholder.com/150x150" alt="Logo 2">
+      <img src="https://via.placeholder.com/150x150" alt="Logo 3">
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <a href="https://www.instagram.com/gigastore_vzla" target="_blank">📸 Instagram: @gigastore_vzla</a><br>
+    <a href="https://wa.me/584124129351" target="_blank">💬 WhatsApp: 04124129351</a>
+  </section>
+
+  <footer>
+    &copy; 2025 GigaStore. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
